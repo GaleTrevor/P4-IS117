@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Final Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  
+  .form-control {
+  padding: 10px 20px;
+	font-size:32px
+  }
+  
+  .btn-default {
+    padding: 10px 20px;
+    font-size: 32px; //change this to your desired size
+    line-height: normal;
+
+}
+  
+  </style>
+</head>
+<body>
+<div class="jumbotron" style="margin-bottom:0">
+<h1><a href = "index.html"><img src = "img/com.jpg" alt = "logo" width = "150" height = "150"></a>&nbsp;Contact Us</h1>
+</div>
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="index.html"><p style="font-size:30px">Home</p></a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><p style="font-size:30px">&nbsp;Game Reviews</p>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="greview1.html"><p style="font-size:20px">PC</p></a></li>
+          <li><a href="greview2.html"><p style="font-size:20px">Nintendo</p></a></li>
+          <li><a href="greview3.html"><p style="font-size:20px">Playstation</p></a></li>
+        </ul>
+      </li>
+      <li class="active"><a href="contact.html"><p style="font-size:30px">&nbsp;Contact Us</p></a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class = "container">
+<form class="form-horizontal" action="/action_page.php">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="name"><p style = "font-size:32px">Name:</p></label>
+    <div class="col-sm-10">
+      <br><input type="name" class="form-control" id="name" placeholder="Enter name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email"><p style = "font-size:32px">Email:</p></label>
+    <div class="col-sm-10">
+      <br><input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Copyright &copy; 2022 Trevor Toerock &emsp;&emsp; Terms of Service  &emsp;&emsp;  Privacy Statement</p>
+</div>
+</body>
+
+<!-- DEVELOPER: Trevor Toerock, IS117-104, Spring 2022 -->
+
+</html>

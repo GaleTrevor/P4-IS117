@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Final Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+<div class="jumbotron" style="margin-bottom:0">
+<h1><a href = "index.html"><img src = "img/com.jpg" alt = "logo" width = "150" height = "150"></a>&nbsp;Homepage</h1>
+</div>
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html"><p style="font-size:30px">Home</p></a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><p style="font-size:30px">&nbsp;Game Reviews</p>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="greview1.html"><p style="font-size:20px">PC</p></a></li>
+          <li><a href="greview2.html"><p style="font-size:20px">Nintendo</p></a></li>
+          <li><a href="greview3.html"><p style="font-size:20px">Playstation</p></a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html"><p style="font-size:30px">&nbsp;Contact Us</p></a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h4>Photo of my bird:</h4>
+      <img src = "img/sunny.jpg" alt = "logo" width = "250" height = "300">
+      <p>My name is Trevor Toerock and I'm a student at NJIT. I am an aspiring coder who is currently 
+		majoring in IT. My hobbies include drawing, music, and play games
+	  . What you are currently looking at is my first full website.
+	  </p>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+	
+	
+    <div class="col-sm-8">
+	<h2>Browse through game review content:</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href = "greview1.html"><img src="img/PC.jpg" alt="PC"></a>
+    </div>
+
+    <div class="item">
+      <a href = "greview2.html"><img src="img/Nintendo.jpg" alt="Nintendo"></a>
+    </div>
+
+    <div class="item">
+      <a href = "greview3.html"><img src="img/Playstation.jpg" alt="Playstation"></a>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+	
+  </div>
+</div>
+<br><br><br>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Copyright &copy; 2022 Trevor Toerock &emsp;&emsp; Terms of Service  &emsp;&emsp;  Privacy Statement</p>
+</div>
+</body>
+
+<!-- DEVELOPER: Trevor Toerock, IS117-104, Spring 2022 -->
+
+</html>
